@@ -20,27 +20,6 @@ npm install
 npm run dev
 ```
 
-## 部署到 GitHub Pages
-
-1. 将代码推送到 GitHub 仓库:
-
-```bash
-git init
-git add .
-git commit -m "初始化项目"
-git branch -M main
-git remote add origin 你的仓库地址
-git push -u origin main
-```
-
-2. 在 GitHub 仓库设置中:
-   - 进入 Settings > Pages
-   - Source 选择 "GitHub Actions"
-   - 等待自动部署完成
-
-3. 部署完成后，你的应用将可以通过以下地址访问：
-   `https://你的用户名.github.io/JS简单计算器/`
-
 ## 构建静态文件
 
 ```bash
